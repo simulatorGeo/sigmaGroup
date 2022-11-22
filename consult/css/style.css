@@ -1,0 +1,24 @@
+.resent-project-wrapper {
+    padding: 10px;
+    height: 100%;
+}
+.resent-project-header {
+    padding: 5px;
+    height: 60%;
+    background-color: rgb(230, 230, 230);
+    font-weight: 700;
+}
+.resent-project-header h4 {
+    color: #d32525!important;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resent-project-footer {
+    background-color: rgb(255, 255, 255);
+    min-height: 40%;
+    padding: 5px;
+}
+.resent-project-footer h4 {
+    color: #d32525!important;
+}
