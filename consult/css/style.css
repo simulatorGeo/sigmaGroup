@@ -9,7 +9,7 @@
     font-weight: 700;
 }
 .resent-project-header h4 {
-    color: #d32525!important;
+    color: #ffce08!important;
     text-align: center;
     margin-top: 20px;
 }
@@ -20,5 +20,10 @@
     padding: 5px;
 }
 .resent-project-footer h4 {
-    color: #d32525!important;
+    color: #ffce08!important;
+}
+
+.tp-tab-title {
+    color: #ffce08!important;
+    text-align: center!important;
 }
