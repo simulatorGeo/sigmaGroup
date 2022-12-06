@@ -35,4 +35,21 @@
     margin-bottom: 10px;
     box-shadow: 0px 0px 5px 2px black;
     padding: 30px;
+
+}
+.slogan_sigma {
+    display: flex!important;
+    flex-direction: column;
+    width: 100%!important;
+}
+.first-make {
+    width: 75vw!important;
+}
+.business {
+    align-self: center;
+    
+}
+.slogan_sigma .lastbutton-easier {
+    align-self: flex-end;
+    margin-right: 50px;
 }
