@@ -73,12 +73,12 @@
 }
 .contact-form-wrapper {
   position: fixed;
-  bottom: 10vh;
   z-index: 9999;
   width: 80vw;
   left: 10vw;
   right: 10vw;
-  height: 80vh;
+  top: 5vh;
+  height: auto;
   background-color: rgba(248, 248, 248);
   box-shadow: 0px 0px 15px 5px rgb(187, 178, 178);
   border-radius: 10px;
@@ -90,4 +90,10 @@
 }
 .gdlr-core-column-15 {
   width: 33%!important;
+}
+
+.corzo-footer-wrapper {
+  display: flex!important;
+  flex-direction: row!important;
+  justify-content: space-around!important;
 }
