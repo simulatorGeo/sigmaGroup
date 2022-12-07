@@ -97,3 +97,9 @@
   flex-direction: row!important;
   justify-content: space-around!important;
 }
+.questions {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  padding: 5px;
+  border-bottom: 1px dotted gray;
+}
