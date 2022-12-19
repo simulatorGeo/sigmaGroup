@@ -117,3 +117,48 @@
 #fb-root {
   margin-bottom: 0px;
 }
+.footer_custom_wrapper {
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+}
+@media only screen and (max-width: 600px) {
+  .footer_custom_wrapper {
+    flex-direction: column!important;
+    width: 100%!important;
+  }.footer_custom {
+    display: flex!important;
+    width: 100%!important;
+  }
+}
+.footer_custom {
+  display: flex!important;
+  width: 33%;
+  justify-content: center;
+}
+.panel_side {
+  display: flex!important;
+  width: 100%!important;
+  align-items: center!important;
+  justify-content: space-around;
+  flex-wrap: wrap!important;
+}
+.footer_logo_side {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.custom_clients_logos {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.custom_clients_logos img {
+  width: 300px!important;
+}
+#corzo-page-wrapper {
+  min-height: 80vh;
+}
+.gdlr-core-title-item-title-wrap{
+  margin-top: 40px!important;
+}

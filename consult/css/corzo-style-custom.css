@@ -141,10 +141,10 @@ body.single-product .corzo-header-background-transparent{ background-image: url(
 .corzo-blog-title-wrap .corzo-blog-title-overlay{ opacity: 0; } 
 body.single-post .corzo-sidebar-style-none, body.blog .corzo-sidebar-style-none, .corzo-blog-style-2 .corzo-comment-content{ max-width: 900px; } 
 .gdlr-core-portfolio-thumbnail .gdlr-core-portfolio-icon{ font-size: 22px; } 
-.corzo-footer-wrapper{ padding-top: 80px; } 
-.corzo-footer-wrapper{ padding-bottom: 15px; } 
-.corzo-copyright-container{ padding-top: 55px; } 
-.corzo-copyright-container{ padding-bottom: 69px; } 
+.corzo-footer-wrapper{ padding-top: 5px; } 
+.corzo-footer-wrapper{ padding-bottom: 2px; } 
+.corzo-copyright-container{ padding-top: 5px; } 
+.corzo-copyright-container{ padding-bottom: 6px; } 
 .corzo-body h1, .corzo-body h2, .corzo-body h3, .corzo-body h4, .corzo-body h5, .corzo-body h6, .corzo-body .corzo-title-font,.corzo-body .gdlr-core-title-font{ font-family: "Jost", sans-serif; }.woocommerce-breadcrumb, .woocommerce span.onsale, .single-product.woocommerce div.product p.price .woocommerce-Price-amount, .single-product.woocommerce #review_form #respond label{ font-family: "Jost", sans-serif; } 
 .corzo-navigation .sf-menu > li > a, .corzo-navigation .sf-vertical > li > a, .corzo-navigation-font{ font-family: "Jost", sans-serif; } 
 .corzo-body, .corzo-body .gdlr-core-content-font, .corzo-body input, .corzo-body textarea, .corzo-body button, .corzo-body select, .corzo-body .corzo-content-font, .gdlr-core-audio .mejs-container *{ font-family: "Jost", sans-serif; } 
