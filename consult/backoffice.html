@@ -23,6 +23,35 @@
 
     <body class="home page-template-default page page-id-12613 theme-corzo gdlr-core-body woocommerce-no-js corzo-body corzo-body-front corzo-full corzo-with-sticky-navigation corzo-blockquote-style-3 gdlr-core-link-to-lightbox"
         data-home-url="index.html" >
+        <div id="fb-root"></div>
+
+        <!-- Your Chat plugin code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+    
+        <script>
+          var chatbox = document.getElementById('fb-customer-chat');
+          chatbox.setAttribute("page_id", "205454926539406");
+          chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+    
+        <!-- Your SDK code -->
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              xfbml            : true,
+              version          : 'v15.0'
+            });
+          };
+    
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+        </script>
         <div class="corzo-mobile-header-wrap">
             <div class="corzo-mobile-header corzo-header-background corzo-style-slide corzo-sticky-mobile-navigation" id="corzo-mobile-header">
                 <div class="corzo-mobile-header-container corzo-container clearfix">
@@ -343,6 +372,7 @@
         <script type="text/javascript" src="js/plugins/jquery.superfish.js"></script>
         <script type="text/javascript" src="js/plugins/script-core.js"></script>
         <div class="contact-form-wrapper" hidden="true" id="formWrapper">
+            <button id="closeButton">X</button>
             <h2>საკონტაქტო ფორმა</h2>
             <form id="contact_form">
                 <label for="name">სახელი</label>
