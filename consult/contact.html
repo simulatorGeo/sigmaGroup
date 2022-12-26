@@ -85,6 +85,9 @@
                             <a class="corzo-mm-menu-button corzo-mobile-menu-button corzo-mobile-button-hamburger" href="#corzo-mobile-menu"><span></span></a>
                             <div class="corzo-mm-menu-wrap corzo-navigation-font" id="corzo-mobile-menu" data-slide="right">
                                 <ul id="menu-main-navigation" class="m-menu">
+                                    <li class="menu-item menu-item-has-children"  style="margin-top: 5px; display: flex;">
+                                        <a href="#">GE </a> " "  <a href="./en/contact.html"> EN</a>
+                                       </li>
                                     <li
                                         class="menu-item menu-item-home"
                                     >
@@ -171,6 +174,13 @@
                                                 <a href="contact.html" class="sf-with-ul-pre"><span class="corzo-menu-item-description">06</span>კონტაქტი</a>
                              
                                             </li>
+                                            <li class="menu-item menu-item-has-children"  style="margin-top: 15px;">
+
+                                                <a href="#">GE</a>
+                                            </li>
+                                            <li class="menu-item menu-item-has-children" style="margin-top: 15px; margin-left: -25px;">
+                                                <a href="./en/contact.html">EN</a>
+                                            </li>
                                         </ul>
                                         <div class="corzo-navigation-slide-bar corzo-navigation-slide-bar-style-dot" data-size-offset="0" id="corzo-navigation-slide-bar"></div>
                                     </div>
@@ -199,7 +209,7 @@
                                                     <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" style="padding-bottom: 25px;">
                                                         <div class="gdlr-core-title-item-title-wrap">
                                                             <h3 class="gdlr-core-title-item-title gdlr-core-skin-title" style="font-size: 37px; font-weight: 700; letter-spacing: 0px; text-transform: none;">
-                                                                მოგვწერეთ <span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+                                                                მადლობას გიხდით დაკავშირებისთვის <span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                                             </h3>
                                                         </div>
                                                     </div>
@@ -220,18 +230,35 @@
                                                                 <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                                 <ul></ul>
                                                             </div>
-                                                            <form method="post" action="contactform/contactengine.php">
-                                                                
-                                                                <input type="text" name="Name" id="Name"  placeholder="სახელი:" class="input"/>
-                                                                
-                                                                <input type="text" name="City" id="City"  placeholder="გვარი:" class="input"/>
-
-                                                                <input type="text" name="Email" id="Email"  placeholder="ელ ფოსტა:" class="input"/>
-                                                                
-                                                                <textarea name="Message" rows="20" cols="20" id="Message" placeholder="შეტყობინება:" class="input"></textarea>
-
-                                                                <input type="submit" name="submit" value="გაგზავნა" class="submit-button" />
-                                                            </form>
+                                                            <div class="" id="formWrapper">
+                                                                <h2>საკონტაქტო ფორმა</h2>
+                                                                <form id="contact_form" style="padding: 10px;">
+                                                                    <label for="name">სახელი</label>
+                                                                    <input type="text" id="name" placeholder="სახელი">
+                                                                    <label for="surname">გვარი</label>
+                                                                    <input type="text" id="surname" placeholder="გვარი">
+                                                                    <label for="companyName">კომპანიის სახელი</label>
+                                                                    <input type="text" id="companyName" placeholder="კომპანიის სახელი">
+                                                                    <label for="phone">ტელეფონის ნომერი</label>
+                                                                    <input type="tel" id="phone" placeholder="ნომერი">
+                                                                    <label for="email">ელ ფოსტა</label>
+                                                                    <input type="text" id="email" placeholder="ელ ფოსტა">
+                                                                    <label for="activity">რა არის კომპანიის ძირითადი საქმიანობა?</label>
+                                                                    <input type="text" id="activity" placeholder="საქმიანობა">
+                                                    
+                                                          
+                                                    
+                                                                    <label for="employees">რა არის კომპანიის ძირითადი საქმიანობა?</label>
+                                                                    <input type="number" id="employees" placeholder="თანამშრომლები">
+                                                    
+                                                                    <label for="transactions">კომპანიის ტრანზაქციების რაოდენობა </label>
+                                                                    <input type="text" id="transactions" placeholder="ზედნადები,ფაქტურა ...">
+                                                    
+                                                                    <textarea name="Message" rows="20" cols="20" id="Message" placeholder="დამატებითი ინფორმაცია:" class="input"></textarea>
+                                                                    <input type="submit" name="submit" value="გაგზავნა" class="submit-button" />
+                                                                </form>
+                                                    
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -255,7 +282,7 @@
                                                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 10px;">
                                                         <div class="gdlr-core-text-box-item-content" style="text-transform: none;">
                                                             <p>
-                                                                ი.აბაშიძის 36/34 <br />
+                                                                ი.აბაშიძის 34/36 <br />
                                                                 თბილისი
                                                             </p>
                                                         </div>
@@ -302,23 +329,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="gdlr-core-pbf-wrapper" style="padding: 75px 0px 75px 0px;">
-                            <div class="gdlr-core-pbf-background-wrap" style="background-color: #ffffff;"></div>
-                            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js" data-gdlr-animation="fadeInUp" data-gdlr-animation-duration="600ms" data-gdlr-animation-offset="0.8">
-                                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
-                                    <div class="gdlr-core-pbf-element">
-                                        <div class="gdlr-core-social-network-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr" style="padding-bottom: 0px;">
-                                            <a href="/cdn-cgi/l/email-protection#f9da" target="_blank" class="gdlr-core-social-network-icon" title="email" style="font-size: 20px; color: #232323;"><i class="fa fa-envelope"></i></a>
-                                            <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook" style="font-size: 20px; color: #232323; margin-left: 37px;"><i class="fa fa-facebook"></i></a>
-                                            <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="google-plus" style="font-size: 20px; color: #232323; margin-left: 37px;"><i class="fa fa-google-plus"></i></a>
-                                            <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 20px; color: #232323; margin-left: 37px;"><i class="fa fa-linkedin"></i></a>
-                                            <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype" style="font-size: 20px; color: #232323; margin-left: 37px;"><i class="fa fa-skype"></i></a>
-                                            <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="twitter" style="font-size: 20px; color: #232323; margin-left: 37px;"><i class="fa fa-twitter"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+  
                     </div>
                 </div>
 
@@ -398,17 +409,18 @@
                                         title="instagram"
                                         style="font-size: 17px; color: #060606; margin-left: 10px; width: 40px; line-height: 40px; background-color: #ffffff; border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px;"
                                     >
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    </div>
+                                    <iconify-icon icon="simple-icons:tiktok"></iconify-icon>
+                                </a>
                             </div>
+                        </div>
                     </div>
-
+                    
                 </footer>
             </div>
         </div>
-
-
+        
+        
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
         <script type="text/javascript" src="js/plugins/revslider/public/assets/js/rbtools.min.js"></script>
@@ -425,37 +437,8 @@
         <script type="text/javascript" src="js/plugins/jquery.superfish.js"></script>
         <script type="text/javascript" src="js/plugins/script-core.js"></script>
         <script type='text/javascript' src='js/plugins/isotope.js'></script>
-        <div class="contact-form-wrapper" hidden="true" id="formWrapper">
-            <button id="closeButton">X</button>
-            <h2>საკონტაქტო ფორმა</h2>
-            <form id="contact_form">
-                <label for="name">სახელი</label>
-                <input type="text" id="name" placeholder="სახელი">
-                <label for="surname">გვარი</label>
-                <input type="text" id="surname" placeholder="გვარი">
-                <label for="companyName">კომპანიის სახელი</label>
-                <input type="text" id="companyName" placeholder="კომპანიის სახელი">
-                <label for="phone">ტელეფონის ნომერი</label>
-                <input type="tel" id="phone" placeholder="ნომერი">
-                <label for="email">ელ ფოსტა</label>
-                <input type="text" id="email" placeholder="ელ ფოსტა">
-                <label for="activity">რა არის კომპანიის ძირითადი საქმიანობა?</label>
-                <input type="text" id="activity" placeholder="საქმიანობა">
 
-      
 
-                <label for="employees">რა არის კომპანიის ძირითადი საქმიანობა?</label>
-                <input type="number" id="employees" placeholder="თანამშრომლები">
-
-                <label for="transactions">კომპანიის ტრანზაქციების რაოდენობა </label>
-                <input type="text" id="transactions" placeholder="ზედნადები,ფაქტურა ...">
-
-                <textarea name="Message" rows="20" cols="20" id="Message" placeholder="დამატებითი ინფორმაცია:" class="input"></textarea>
-                <input type="submit" name="submit" value="Submit" class="submit-button" />
-            </form>
-
-        </div>
-        <div class="contact-form-button" id="mailButton"><i class="fa fa-address-card" aria-hidden="true"></i></div>
         <script src="./js/main.js"></script>
 
     </body>
