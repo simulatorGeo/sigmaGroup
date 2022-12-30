@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>SIGMA &#8211; Group</title>
+    <title>SiGMA &#8211; Group</title>
 
     <link
       rel="stylesheet"
@@ -301,27 +301,27 @@
                             <ul id="menu-services" class="menu">
                               <li class="menu-item">
                                 <a href="backoffice.html"
-                                  >SIGMA Back Office</a
+                                  >SiGMA Back Office</a
                                 >
                               </li>
                               <li class="menu-item">
                                 <a href="busines-assitance.html"
-                                  >SIGMA Business Assistant</a
+                                  >SiGMA Business Assistant</a
                                 >
                               </li>
                               <li class="menu-item">
                                 <a href="projects.html"
-                                  >SIGMA Projects</a
+                                  >SiGMA Projects</a
                                 >
                               </li>
                               <li class="menu-item">
-                                <a href="insurance.html">SIGMA Hr</a>
+                                <a href="insurance.html">SiGMA HR</a>
                               </li>
                               <li class="menu-item">
-                                <a href="ie.html">SIGMA IE</a>
+                                <a href="ie.html">SiGMA IE</a>
                               </li>
                               <li class="menu-item">
-                                <a href="start.html">SIGMA Start</a>
+                                <a href="start.html">SiGMA Start</a>
                               </li>
                             </ul>
                           </div>
@@ -563,7 +563,7 @@
     <div class="contact-form-wrapper" hidden="true" id="formWrapper">
       <button id="closeButton"><i class="fa fa-minus" aria-hidden="true"></i></button>
       <h2>Contact Us</h2>
-      <form id="contact_form">
+      <form id="contact_form" method="post" action="sendemail.php">
           <label for="name">Name</label>
           <input type="text" id="name" placeholder="Name">
           <label for="surname">Surname</label>
@@ -580,17 +580,17 @@
 
 
           <label for="employees">How many employees do you have in the company?</label>
-          <input type="number" id="employees" placeholder="Emps">
+          <input type="number" min="0" id="employees" placeholder="Emps">
 
           <label for="transactions">Number of company transactions</label>
-          <input type="text" id="transactions" placeholder="Transactions">
+          <input type="number" id="transactions" min="0" placeholder="Transactions">
 
           <textarea name="Message" rows="20" cols="20" id="Message" placeholder="Message:" class="input"></textarea>
           <input type="submit" name="submit" value="Submit" class="submit-button" />
       </form>
 
   </div>
-  <div class="contact-form-button" id="mailButton"><i class="fa fa-address-card" aria-hidden="true"></i></div>
+  <div class="contact-form-button" id="mailButton"></div>
   <script src="./js/main.js"></script>
 
   </body>

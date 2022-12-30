@@ -54,15 +54,17 @@
 
 /* contact-form */
 .contact-form-button {
-  width: 70px;
-  height: 60px;
-  background-color: #ffce08;
+  background-image: url('../images/backgrounds/contact.png');
+  width: 90px;
+  height: 80px;
   position: fixed;
+  background-position: center;
+  background-size: cover;
   bottom: 90px;
   right: 23px;
   z-index: 99999;
   border-radius: 10px;
-
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
