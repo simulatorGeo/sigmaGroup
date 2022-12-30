@@ -239,8 +239,7 @@
                                                             class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
                                                             style="font-size: 14px; font-weight: 500; font-style: normal; letter-spacing: 3px; text-transform: uppercase; color: #ffce08; margin-bottom: 5px;"
                                                         >
-                                                            <span class="gdlr-core-title-item-caption-prefix" style="border-color: #ffce08; height: 13px; margin-right: 14px;  margin-top: 100px;"></span>ჩვენს შესახებ
-                                                        </span>
+                                     
                                                         <div class="gdlr-core-title-item-title-wrap">
                                                             <h3 class="gdlr-core-title-item-title gdlr-core-skin-title" style="font-size: 42px; font-weight: 500; letter-spacing: 0px; text-transform: none; color: #1b1b1b;">
                                                                 სერვისები<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
@@ -1393,7 +1392,7 @@
             
             <button id="closeButton"><i class="fa fa-minus" aria-hidden="true"></i></button>
             <h2>საკონტაქტო ფორმა</h2>
-            <form id="contact_form" method="post" action="gocha.berulava@gmail.com">
+            <form id="contact_form" method="get" action="../consult/sendemail.php">
                 <label for="name">სახელი</label>
                 <input type="text" id="name" placeholder="სახელი">
                 <label for="surname">გვარი</label>
@@ -1406,15 +1405,10 @@
                 <input type="text" id="email" placeholder="ელ ფოსტა">
                 <label for="activity">რა არის კომპანიის ძირითადი საქმიანობა?</label>
                 <input type="text" id="activity" placeholder="საქმიანობა">
-
-      
-
-                <label for="employees">რა არის კომპანიის ძირითადი საქმიანობა?</label>
+                <label for="employees">დასაქმებულთა რაოდენობა</label>
                 <input type="number" id="employees" placeholder="თანამშრომლები" min="0">
-
                 <label for="transactions">კომპანიის ტრანზაქციების რაოდენობა </label>
                 <input type="number" min=0 id="transactions" placeholder="ზედნადები,ფაქტურა ...">
-
                 <textarea name="Message" rows="20" cols="20" id="Message" placeholder="დამატებითი ინფორმაცია:" class="input"></textarea>
                 <input type="submit" name="submit" value="Submit" class="submit-button" />
             </form>
