@@ -40,6 +40,7 @@
   display: flex !important;
   flex-direction: column;
   width: 100% !important;
+  height: 100vh!important;
 }
 .first-make {
   width: 75vw !important;
@@ -198,4 +199,42 @@
 #closeButton:hover{
   background-color: rgb(179, 170, 170);
 
+}
+
+.wraper-makebusines {
+ background-image: url(../images/backgrounds/main_bg.jpg);
+  width: 100vw;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  color: white; 
+  background-position: center; 
+  background-size: cover;
+
+}
+.makeb1{
+  width: 100%;
+  font-size: 8vw;
+  text-align: left;
+  margin-left: 20vw;
+  margin-top: 10vh;
+}
+.makeb2{
+  width: 100%;
+  font-size: 8vw;
+  text-align: center;
+}
+.makeb3{
+  width: 100%;
+  font-size: 8vw;
+  text-align: right;
+  margin-right: 20vw;
+}
+.makeb4{
+  height: 10px;
+  background-color: #ffce08;
+  width: 30%;
+  border-radius: 10px;
 }
