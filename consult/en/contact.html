@@ -233,30 +233,30 @@
                                                             </div>
                                                             <div id="formWrapper">
                                                              
-                                                                <h2>Contact Us</h2>
-                                                                <form id="contact_form">
-                                                                    <label for="name">Name</label>
-                                                                    <input type="text" id="name" placeholder="Name">
+                                                                <h2>Contact us</h2>
+                                                                <form id="contact_form" method="post" action="../sendemail.php">
+                                                                    <label for="first_name">Name</label>
+                                                                    <input type="text" id="first_name" placeholder="Name" name="first_name">
                                                                     <label for="surname">Surname</label>
-                                                                    <input type="text" id="surname" placeholder="Surname">
+                                                                    <input type="text" id="surname" placeholder="Surname" name="surname">
                                                                     <label for="companyName">Company Name</label>
-                                                                    <input type="text" id="companyName" placeholder="Comapany name">
+                                                                    <input type="text" id="companyName" placeholder="Comapany name" name="company_name">
                                                                     <label for="phone">Phone</label>
-                                                                    <input type="tel" id="phone" placeholder="Phone">
+                                                                    <input type="tel" id="phone" placeholder="Phone" name="phone">
                                                                     <label for="email">Email</label>
-                                                                    <input type="text" id="email" placeholder="Email">
+                                                                    <input type="text" id="email" placeholder="Email" name="email">
                                                                     <label for="activity">What is the main activity of the company?</label>
-                                                                    <input type="text" id="activity" placeholder="Activity">
+                                                                    <input type="text" id="activity" placeholder="Activity" name="category">
                                                     
                                                           
                                                     
                                                                     <label for="employees">How many employees do you have in the company?</label>
-                                                                    <input type="number" id="employees" min="0" placeholder="Emps">
+                                                                    <input type="number" id="employees" min="0" placeholder="Emps" name="emps_qtt">
                                                     
                                                                     <label for="transactions">Number of company transactions</label>
-                                                                    <input type="number" id="transactions" min="0" placeholder="Transactions">
+                                                                    <input type="number" id="transactions" min="0" placeholder="Transactions" name="transactions">
                                                     
-                                                                    <textarea name="Message" rows="20" cols="20" id="Message" placeholder="Message:" class="input"></textarea>
+                                                                    <textarea name="message_form" rows="20" cols="20" id="message_form" placeholder="Message:" class="input"></textarea>
                                                                     <input type="submit" name="submit" value="Submit" class="submit-button" />
                                                                 </form>
                                                     
@@ -320,6 +320,7 @@
                                                 <div class="gdlr-core-pbf-element">
                                                     <div class="gdlr-core-wp-google-map-plugin-item gdlr-core-item-pdlr gdlr-core-item-pdb" style="padding-bottom: 0px;">
                                                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d885.5426339908213!2d44.766580367283105!3d41.70760230255028!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044733499073c01%3A0xdcc74b42ad56dc4b!2zVGVybWluYWwg4oCiIOGDouGDlOGDoOGDm-GDmOGDnOGDkOGDmuGDmA!5e0!3m2!1sen!2sge!4v1671440420791!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        
                                                         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1770.8447465233971!2d44.7936836982962!3d41.71633245824587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440d2c804cc8c1%3A0xfff749835af516fe!2s148a%20Davit%20Aghmashenebeli%20Ave%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1670303966323!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                                                         <!-- <iframe style="width:100%; height:500px; border:0" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d19905.696399556287!2d-0.3007084089960577!3d51.417531259591925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s2334+Peterson+Street+Kingston+UK+London+H14D!5e0!3m2!1sen!2s!4v1546697086219" width="600" height="450" ></iframe> -->
 

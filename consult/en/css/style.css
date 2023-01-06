@@ -135,6 +135,18 @@
     width: 100%!important;
   }
 }
+@media only screen and (max-width: 600px) {
+  .wraper-makebusines {
+  height: 50vh!important;
+
+}
+.gdlr-core-title-font {
+  font-size: 24px!important;
+}.gdlr-core-title-item-title-wrap h3{
+  font-size: 8px!important;
+}
+}
+
 .footer_custom {
   display: flex!important;
   width: 33%;
